@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medieval Chronicle</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #faf8f3;
+            font-family: 'Garamond', 'Times New Roman', serif;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #faf8f3;
+            position: relative;
+        }
+
+        .content {
+            padding: 50px 60px 40px;
+        }
+                            
+        h1 {
+            font-size: 3em;
+            color: #1a1a1a;
+            text-align: center;
+            margin-bottom: 35px;
+            font-weight: normal;
+            font-variant: small-caps;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #1a1a1a;
+            text-align: center;
+            margin-bottom: 25px;
+            font-weight: normal;
+            font-variant: small-caps;
+        }
+
+        .text-content {
+            font-size: 1.5em;
+            color: #1a1a1a;
+            text-align: justify;
+            margin-bottom: 20px;
+            text-indent: 40px;
+            hyphens: auto;
+        }
+
+        .words {
+          float: right;
+          padding: 10px;
+          margin: 10px;
+          color: #66f;
+          border: 1px solid #66f;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px;
+            font-size: 13px;
+            color: #666;
+            border-top: 1px solid #ccc;
+            margin-top: 80px;
+            font-style: italic;
+            clear: both;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+        .comment {
+          font-style: italic;
+        }
+
+        .comment:before {
+          content: '('
+        }
+
+        .comment:after {
+          content: ')'
+        }
+
+        .column {
+          float: left;
+          width: 33%;
+        }
+
+        .word-table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 20px 0 30px;
+          font-size: 1.15em;
+        }
+
+        .word-table th, .word-table td {
+          border: 1px solid #66f;
+          padding: 8px 14px;
+          text-align: left;
+        }
+
+        .word-table th {
+          background: #eef;
+          font-variant: small-caps;
+          font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="page-edge left"></div>
+        <div class="page-edge right"></div>
+        <img src="img/areals.jpg" height="300" width="100%">
+        
+        <div class="content">
+            <h1>Тема</h1>
+            
+            <div class="text-content">
+            текст
+            </div>
+            <div class="text-content">
+            текст
+            </div>
+
+            <h2>Подтема</h2>
+
+            <div class="text-content">
+            текст
+            </div>
+
+            <div class="words">
+              <b>Мать -- (die) Mutter</b> [м'уттер].<br>
+              ...
+              <b>Папа -- (der) Papa</b> [п'апа].<br>
+            </div>
+
+            <div class="column">
+              <a href="/">Назад</a>
+            </div>
+
+            <div class="footer">
+                © Андрей Стариков, 2025
+            </div>
+        </div>
+    </div>
+</body>
+</html>
